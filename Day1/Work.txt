@@ -1,3 +1,19 @@
 Git
   Local repository
 Versioning tool
+
+
+git init
+
+git add -A
+
+git commit -m "<Initaial Commit>"
+
+
+git config --list
+
+git remote add origin <url>
+
+git remote -v
+
+git push origin master
