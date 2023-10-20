@@ -1,0 +1,74 @@
+https://www.w3schools.com/css/css3_mediaqueries.asp
+
+Full Stack Development
+
+C - Create
+R - Read
+U - Update
+D - Delete
+
+
+Sequence
+Selection
+Iteration
+
+
+Create an console application 
+Product
+
+Login
+User/Admin
+User
+View Product
+Add To cart
+Buy Product
+
+Admin
+Add Products
+Modify Product
+Delete Product
+
+Class
+Objects
+Inheeritance
+Polymorphism - overloading,overriding
+Encapsualte - access specifiers
+Abstarct
+
+
+Instance vs. Static
+Object get memory during runtime
+
+Methods
+  Parameters - In /Out
+  Retuen Types
+
+Exception Handling
+
+
+Product
+  Id 
+  Name
+  Price
+  Picture
+  Description
+  Discount
+  Rating
+  Quantity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
