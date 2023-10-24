@@ -1,0 +1,15 @@
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingDALLibrary\bin\Debug\net6.0\ShoppingDALLibrary.deps.json
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingDALLibrary\bin\Debug\net6.0\ShoppingDALLibrary.dll
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingDALLibrary\bin\Debug\net6.0\ShoppingDALLibrary.pdb
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingDALLibrary\bin\Debug\net6.0\ShoppingModelLibrary.dll
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingDALLibrary\bin\Debug\net6.0\ShoppingModelLibrary.pdb
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.csproj.AssemblyReference.cache
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.AssemblyInfoInputs.cache
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.AssemblyInfo.cs
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.csproj.CopyComplete
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.dll
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\refint\ShoppingDALLibrary.dll
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.pdb
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ref\ShoppingDALLibrary.dll

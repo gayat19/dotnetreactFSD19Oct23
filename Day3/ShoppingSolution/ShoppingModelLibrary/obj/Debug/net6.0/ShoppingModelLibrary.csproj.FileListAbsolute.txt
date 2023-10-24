@@ -1,0 +1,11 @@
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingModelLibrary\bin\Debug\net6.0\ShoppingModelLibrary.deps.json
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingModelLibrary\bin\Debug\net6.0\ShoppingModelLibrary.dll
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingModelLibrary\bin\Debug\net6.0\ShoppingModelLibrary.pdb
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.AssemblyInfoInputs.cache
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.AssemblyInfo.cs
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.dll
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingModelLibrary\obj\Debug\net6.0\refint\ShoppingModelLibrary.dll
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.pdb
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day3\ShoppingSolution\ShoppingModelLibrary\obj\Debug\net6.0\ref\ShoppingModelLibrary.dll

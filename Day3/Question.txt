@@ -1,0 +1,23 @@
+Convert the Day 2 question to 3 tier app;lication with exception handling and proper interface implementation
+
+Question for refference
+
+Create an application that will allow user to interact with a clinic
+
+It will have 2 user types
+Admin
+User
+
+Admin functionalities
+Add Doctor
+Modify doctor phone
+modify doctor experience
+Delete Doctor
+
+User functionalities
+View doctor
+Book appoitments
+
+
+
+As of now just implement ad min functionalities

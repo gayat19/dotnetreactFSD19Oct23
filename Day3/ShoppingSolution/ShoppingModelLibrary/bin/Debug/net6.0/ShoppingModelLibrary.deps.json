@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ShoppingModelLibrary/1.0.0": {
+        "runtime": {
+          "ShoppingModelLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ShoppingModelLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
