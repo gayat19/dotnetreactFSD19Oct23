@@ -11,7 +11,7 @@ namespace ShoppingBLLibrary
 {
     public class ProductService : IProductService
     {
-        IRepository repository;
+        IRepository<int,Product> repository;
         public ProductService()
         {
             repository =  new ProductRepository();

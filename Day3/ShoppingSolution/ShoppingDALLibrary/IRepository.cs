@@ -7,12 +7,12 @@ using ShoppingModelLibrary;
 
 namespace ShoppingDALLibrary
 {
-    public interface IRepository
+    public interface IRepository<K,T>  where T : class
     {
-        public Product Add(Product product);
-        public Product Update(Product product);
-        public Product Delete(int id);
-        public Product GetById(int id);
-        public List<Product> GetAll();
+        public T Add(T item);
+        public T Update(T item);
+        public T Delete(K id);
+        public T GetById(K id);
+        public List<T> GetAll();
     }
 }

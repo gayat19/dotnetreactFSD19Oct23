@@ -2,7 +2,7 @@
 
 namespace ShoppingDALLibrary
 {
-    public class ProductRepository : IRepository
+    public class ProductRepository : IRepository<int, Product>
     {
         Dictionary<int,Product> products = new Dictionary<int,Product>();
         /// <summary>
