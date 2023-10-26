@@ -1,0 +1,58 @@
+Interface
+DLL
+Association
+
+
+  int num1 = 0;
+  try
+  {
+      Console.WriteLine("Please enter a number");
+      num1 = Convert.ToInt32(Console.ReadLine());
+      int num2 = 100;
+      num2 = num2 / num1;
+      Console.WriteLine($"The result is {num2}");
+      return 1;
+  }
+  catch (ArithmeticException e)
+  {
+      Console.WriteLine("There is an arthmatical problem");
+      Console.WriteLine(e.Message);
+  }
+  catch (FormatException e)
+  {
+      Console.WriteLine("The input was not a number.");
+      Console.WriteLine(e.Message);
+  }
+  catch(Exception e)
+  {
+      Console.WriteLine("Oops something went wrong");
+      Console.WriteLine(e.StackTrace);
+  }
+  finally
+  {
+      Console.WriteLine("Connection closed");
+  }
+
+
+CRUD
+
+Collection - List-> Dictionary
+
+Create
+Read
+Update
+Delete
+
+
+AddProduct(product)
+UpdateProductPrice(id,newPrice)
+UpdateProductQuantity(id,quantity,action)
+DeleteProduct(id)
+GetAll()
+GetById(id)
+
+
+User Defined Exception
+
+
+Loose Coupling

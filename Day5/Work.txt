@@ -1,0 +1,42 @@
+RDBMS
+  Table format
+
+
+Table - Entity
+Row - Tuple
+Column - Attribute
+
+
+Primary Key
+Composite KEy
+Foreign Key
+
+Multi value attribute- more than 1 unit of data and cannot be split to multiple columns meaningfully
+
+
+
+1st Normal Form
+   Primary Key
+   No multi valued attributes
+   Similar type of data in a attribute
+
+
+2nd NF
+  1st NF
+  No Partial dependency
+  (A,B=>C in dependent only on A not on (A,B))
+
+3rd NF
+  2nd NF
+  No Tansitive Dependency
+  C->B->A where A and B are non key attribute
+
+
+DDL -> Create, Alter and Drop
+
+DML - >Insert, Update, Delete
+
+Query -> Select, Where, Group By, Having, Order By
+	Joins
+
+
