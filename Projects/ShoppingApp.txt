@@ -1,0 +1,79 @@
+
+
+
+Title:Shopping App
+
+Scenario:
+You are tasked with developing a basic shopping app that allows users to view a list of products, add them to their cart, and place orders. The app should have a user-friendly interface and a secure backend.
+
+Requirements:
+1. Backend should be developed using .NET Core.
+2. Frontend should be developed using Angular.
+3. Users can view a list of products with details like name, price, and image.
+4. Users can add products to their shopping cart.
+5. Users can view their shopping cart and remove items from it.
+6. Users can place an order, which should be stored in the database.
+7. Authentication and authorization should be implemented to secure the app.
+
+**Steps:**
+
+1. **Setting Up the Backend:**
+   - Create a new .NET Core Web API project.
+   - Define models for `Product`, `User`, and `Order`.
+   - Implement controllers and actions for CRUD operations on orders.
+   - Implement user authentication and authorization using JWT (JSON Web Tokens).
+
+2. Setting Up the Frontend:
+   - Create a new Angular project.
+   - Design a user-friendly UI with components for displaying products, a shopping cart, and order placement.
+   - Implement routing to navigate between different views (e.g., product list, cart, and order placement).
+   - Use Angular services to make HTTP requests to the backend API for fetching products, managing the cart, and placing orders.
+
+3. Product Listing:
+   - Display a list of products with details on the product listing page.
+   - Include an "Add to Cart" button for each product to allow users to add items to their cart.
+
+4. Shopping Cart:
+   - Create a shopping cart component to display the items added to the cart.
+   - Allow users to view and update the quantity of items in the cart.
+   - Implement a "Remove" button for each item in the cart.
+
+5. Order Placement:
+   - Create a checkout page where users can review their cart and place an order.
+   - Implement the order placement logic to send the order data to the backend.
+   - Provide a confirmation message after a successful order placement.
+
+6. Authentication and Authorization:
+   - Implement user registration and login functionality in the Angular app.
+   - Secure API endpoints by checking user roles and validating JWT tokens.
+   - Ensure that only authenticated users can place orders.
+
+7. Testing :
+   - Test the application thoroughly to ensure it meets the requirements.
+   
+8. Additional Features (Optional):
+   - Implement search and filtering for products.
+   - Add product categories and allow users to browse products by category.
+   - Implement user profiles and order history.
+
+9. Secure Data Storage:
+    - Store user financial data securely in a database SQL Server
+
+10. Responsive Design:
+    - Ensure the app is responsive, making it accessible on various devices and screen sizes.
+
+11. Security:
+    - Implement security measures to protect user data, including encryption and user privacy settings.
+
+12. API Integration:
+    - Integrate with a RESTful API for data retrieval and storage.
+
+13. Database:
+    - Use a database system MS SQL Server for storing user profiles and event data.
+
+14. Testing and Debugging:
+    - Perform thorough testing and debugging to ensure the app functions without errors.
+
+15. Deployment:
+    - Deploy the app to a web server or cloud platform for public access.
+       
