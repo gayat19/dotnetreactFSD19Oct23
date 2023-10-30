@@ -1,0 +1,19 @@
+Joins
+   Inner
+   Outer
+   Cross
+
+Stored Procedure
+   Generated the excution plan only once and uses it all the time
+   Safe - no data injection
+
+view
+  Encapulate the table name
+  To make it easy for programmers to use complex queries
+
+Index
+  Searches faster
+
+Trigger
+  Gets executed when the associated action happens
+  Insert/Update/Delete

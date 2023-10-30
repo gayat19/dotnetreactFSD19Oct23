@@ -12,6 +12,7 @@ Composite KEy
 Foreign Key
 
 Multi value attribute- more than 1 unit of data and cannot be split to multiple columns meaningfully
+Complex Attribute - eg.- Address- An attribute that can be spplit to multiple columns
 
 
 

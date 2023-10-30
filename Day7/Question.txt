@@ -1,0 +1,17 @@
+1) print the store name, title name,, quantity, sale amount, pulisher name, author name for all the sales. Also print those books which have not been sold and authors who have not written.
+
+
+2) Create a stored procedure that will take the author name and print the total sales amount for all the books authored by him/her
+  Note : - If there are no books sold then print "Sale yet to gear up"
+
+3) print the details of the sale when the sale quantity is greater than the sale quantity of all the same titles sold in the same store
+
+4) Print the average price of every author's books withthe author's full name
+
+5) Print the schema of the titles table and locate all the constrants
+
+6) Create a procedure that will take the price and prints the count of book that are priced less than that
+
+7) Find a way to ensure that the price of books are not updated if the price is below 7
+
+8) print the books that have 'e' and 'a' in their name
