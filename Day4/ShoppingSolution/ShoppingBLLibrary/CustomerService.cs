@@ -28,7 +28,7 @@ namespace ShoppingBLLibrary
             return false;
         }
 
-        public Customer Register(Customer customer)
+        public  Customer Register(Customer customer)
         {
             var result = repository.Add(customer);
             if (result != null)

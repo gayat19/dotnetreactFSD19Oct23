@@ -1,0 +1,16 @@
+Web Application
+   IIS Express(InBuilt in VS)
+   Self Hosting -> Exe in Runtime -> Web application will be hosted
+
+ASP.NET Core
+  MVC - Model-View-Controller- FE
+  Web API - Model-Controller - Just Data
+
+
+Request - http://<base address>/<controller name>/<action method name>
+HTTP Status Codes 
+   1XX - Information
+   2XX - Success
+   3XX - Redirection
+   4XX - Client Side Error
+   5XX - Server Side Error

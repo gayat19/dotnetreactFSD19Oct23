@@ -1,0 +1,31 @@
+﻿
+@* Strongly type the view *@
+@model IEnumerable<FirstWebApplication.Models.Product>
+<html>
+    <head>
+        <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+        <style>
+            .prod{
+                height:20%;
+                float:left;
+                margin:5px;
+            }
+        </style>
+    </head>
+    <body>
+    @foreach (var item in Model)
+    {
+        <div>
+            <div class="card prod" style="width: 18rem;">
+                <img class="card-img-top" src="@Url.Content(item.Picture)" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">@item.Name</h5>
+                    <p class="card-text">@item.Description</p>
+                    <a href="#" class="btn btn-primary">Buy for $@item.Price each</a>
+                </div>
+            </div>
+        </div>
+    }
+
+    </body>
+</html>

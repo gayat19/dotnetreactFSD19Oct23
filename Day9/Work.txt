@@ -1,0 +1,14 @@
+Anon Functions
+   A funtion without name
+Predefined Delegates
+Action => no return
+Func=> any return type
+Predicate => bool retrun type
+
+
+LINQ - Language INtegrated Query
+
+Unit testing
+
+https://learn.microsoft.com/en-us/dotnet/csharp/linq/write-linq-queriesn
+https://pgexercises.com/gettingstarted.html

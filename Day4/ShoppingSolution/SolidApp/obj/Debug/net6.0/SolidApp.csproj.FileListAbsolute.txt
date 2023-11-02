@@ -1,0 +1,14 @@
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day4\ShoppingSolution\SolidApp\bin\Debug\net6.0\SolidApp.exe
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day4\ShoppingSolution\SolidApp\bin\Debug\net6.0\SolidApp.deps.json
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day4\ShoppingSolution\SolidApp\bin\Debug\net6.0\SolidApp.runtimeconfig.json
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day4\ShoppingSolution\SolidApp\bin\Debug\net6.0\SolidApp.dll
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day4\ShoppingSolution\SolidApp\bin\Debug\net6.0\SolidApp.pdb
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day4\ShoppingSolution\SolidApp\obj\Debug\net6.0\SolidApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day4\ShoppingSolution\SolidApp\obj\Debug\net6.0\SolidApp.AssemblyInfoInputs.cache
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day4\ShoppingSolution\SolidApp\obj\Debug\net6.0\SolidApp.AssemblyInfo.cs
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day4\ShoppingSolution\SolidApp\obj\Debug\net6.0\SolidApp.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day4\ShoppingSolution\SolidApp\obj\Debug\net6.0\SolidApp.dll
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day4\ShoppingSolution\SolidApp\obj\Debug\net6.0\refint\SolidApp.dll
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day4\ShoppingSolution\SolidApp\obj\Debug\net6.0\SolidApp.pdb
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day4\ShoppingSolution\SolidApp\obj\Debug\net6.0\SolidApp.genruntimeconfig.cache
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day4\ShoppingSolution\SolidApp\obj\Debug\net6.0\ref\SolidApp.dll

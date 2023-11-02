@@ -1,0 +1,30 @@
+Solid Principles
+   S - Single responsibility
+   O - Open and Closed
+   L - Liskov Substitution
+   I - Interface Isolation
+   D - Denpendency Inversion - loose coupling+easy for Unit testing
+
+
+
+https://www.c-sharpcorner.com/UploadFile/damubetha/solid-principles-in-C-Sharp/
+
+
+TimeLine
+
+
+Data - > CRUD
+BL -> Service
+FE -> User Interface
+
+Customer, Product
+
+Design patterns
+  repeated solutions to problem
+
+Creational  - Factory,Builder, Singleton
+Structural
+Behavioral
+
+
+https://dotnettutorials.net/course/dot-net-design-patterns/
