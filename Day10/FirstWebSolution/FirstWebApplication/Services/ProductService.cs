@@ -7,9 +7,9 @@ namespace FirstWebApplication.Services
     public class ProductService : IProductService
     {
         IRepository<int, Product> repository;
-        public ProductService()
+        public ProductService(IRepository<int, Product> repo)
         {
-            repository = new ProductRepository();
+            repository = repo;
         }
 
         public Product AddProduct(Product product)

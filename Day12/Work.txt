@@ -1,0 +1,52 @@
+Login
+Registration
+Home
+
+
+Authentication - JWT based 
+Authorization - Role Based
+
+Token
+  Header - Encryption/type of token
+  Payload  - Data(user name, role)
+  Signature - (Excact Encryption type)
+
+
+https://sha512.online/
+https://jwt.io/
+
+User
+  username
+  password(hash )
+  role
+
+user(DTO - Data Transfer Object)
+  username
+  password(clear text)
+  role
+  token
+
+Product
+   Id
+   Name
+   Price
+   Quantity
+   Picture
+
+Cart
+  Id
+  Username
+ 
+
+CartItems
+   cartId
+   ProductId
+   Price
+   quantity
+
+CartItem(DTO)
+   cartId
+   ProductId
+   Price
+   quantity
+   Picture

@@ -1,0 +1,36 @@
+EF Core
+   Database connectivity
+   ORM -> Object Relation Mapping
+   Code First/Database First- Approches
+
+
+ADO.NET
+
+Collection
+   Object
+     Properties
+
+Table
+  Row
+   Attributes
+
+
+Collection <-> Table
+Object <-> Row
+Properties <-> Attributes
+
+DbContext->EF Core
+SQL Server -> EF specific to SQL Server
+Microsoft.EntityFrameworkCore.SqlServer - 6.0.24
+Microsoft.EntityFrameworkCore.Tools - 6.0.24
+
+Context class
+Injected
+Connection
+
+In the package manager console
+Add-Migration "Initial"
+
+Update-Databse
+
+

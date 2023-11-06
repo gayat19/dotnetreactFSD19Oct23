@@ -1,3 +1,10 @@
+using FirstWebApplication.Contexts;
+using FirstWebApplication.Interfaces;
+using FirstWebApplication.Models;
+using FirstWebApplication.Repositories;
+using FirstWebApplication.Services;
+using Microsoft.EntityFrameworkCore;
+
 namespace FirstWebApplication
 {
     public class Program
@@ -9,6 +16,12 @@ namespace FirstWebApplication
             // Add services to the container.
             builder.Services.AddRazorPages();
             builder.Services.AddControllersWithViews();
+            builder.Services.AddDbContext<ShoppingContext>(opts =>
+            {
+                opts.UseSqlServer(builder.Configuration.GetConnectionString("conn"));
+            });
+            builder.Services.AddScoped<IRepository<int, Product>, ProductRepositoryDb>();
+            builder.Services.AddScoped<IProductService,ProductService>();
 
             var app = builder.Build();
 

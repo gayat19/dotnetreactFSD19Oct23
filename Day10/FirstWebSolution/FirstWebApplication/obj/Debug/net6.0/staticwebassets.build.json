@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aQreYqr1Nw8+Kwxs55n5S4BKKT2c6xHxuHOqNUKezCU=",
+  "Hash": "AxFEyNXJnyburK2y9BIdnE/jXNugWaNhE2h3Gskg3zw=",
   "Source": "FirstWebApplication",
   "BasePath": "_content/FirstWebApplication",
   "Mode": "Default",
@@ -1086,6 +1086,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\Data\\d drive\\Corp\\Gynosys\\Hexaware\\Participants\\Day10\\FirstWebSolution\\FirstWebApplication\\wwwroot\\pages\\htmlpage.html",
+      "SourceId": "FirstWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\d drive\\Corp\\Gynosys\\Hexaware\\Participants\\Day10\\FirstWebSolution\\FirstWebApplication\\wwwroot\\",
+      "BasePath": "_content/FirstWebApplication",
+      "RelativePath": "pages/htmlpage.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pages\\htmlpage.html"
     }
   ]
 }

@@ -1,4 +1,6 @@
-﻿namespace FirstWebApplication.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace FirstWebApplication.Models
 {
     public class Product
     {
@@ -10,6 +12,11 @@
         public string Description { get; set; } = string.Empty;
         public double Rating { get; set; }
         public float Discount { get; set; }
+        public int Category_Id { get; set; }
+
+        [ForeignKey("Category_Id")]
+        public Category Category { get; set; }
+
         public Product()
         {
             Price = 0.0f;
