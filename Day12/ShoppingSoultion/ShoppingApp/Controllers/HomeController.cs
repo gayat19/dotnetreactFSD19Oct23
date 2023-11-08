@@ -15,6 +15,7 @@ namespace ShoppingApp.Controllers
 
         public IActionResult Index()
         {
+            
             return View();
         }
 

@@ -1,8 +1,22 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+<iframe width="600"
+        height="450"
+        style="border:0"
+        loading="lazy"
+        allowfullscreen
+        referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps/embed/v1/place?key=API_KEY
+    &q=Space+Needle,Seattle+WA">
+</iframe>
 <div class="text-center">
     <h1 class="display-4">Shopping App</h1>
     <p>Welcome to our store</p>
+    @if (TempData.ContainsKey("username"))
+    {
+        <div class="alert alert-success">
+            Welcome @TempData["username"]
+        </div>
+    }
 </div>

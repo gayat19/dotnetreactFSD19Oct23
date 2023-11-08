@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ShoppingApp.Interfaces;
 using ShoppingApp.Models.DTOs;
 
@@ -19,11 +20,41 @@ namespace ShoppingApp.Controllers
         [HttpPost]
         public IActionResult Register(UserViewModel viewModel)
         {
-            var user = _userService.Register(viewModel);
-            if(user != null)
+            try
             {
-                return RedirectToAction("Index","Home");
+                var user = _userService.Register(viewModel);
+                if (user != null)
+                {
+                    return RedirectToAction("Index", "Home");
+                }
             }
+            catch(DbUpdateException exp)
+            {
+                ViewBag.Message = "User name already exits";
+            }
+            catch (Exception)
+            {
+                ViewBag.Message = "Invalid data. Coudld not register";
+                throw;
+            }
+            //ViewData["Message"] = "Invalid data. Coudld not register";
+           
+            return View();
+        }
+        public IActionResult Login()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Login(UserDTO userDTO)
+        {
+            var result = _userService.Login(userDTO);
+            if(result != null)
+            {
+                TempData.Add("username",userDTO.Username);
+                return RedirectToAction("Index", "Home");
+            }
+            ViewData["Message"] = "Invalid username or password";
             return View();
         }
     }

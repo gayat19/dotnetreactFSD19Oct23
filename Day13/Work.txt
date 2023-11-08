@@ -1,0 +1,27 @@
+API - > Application Programming Inteface
+
+
+HTTP Verbs
+GET -> Gets the data
+POST -> Takes the data 
+PUT -> Edit the data
+DELETE -> Delete the data
+
+
+
+
+{
+    "name":"Pencil",
+    "price":12,
+    "quantity":7,
+    "Picture":""
+}
+
+
+
+{
+    "username": "homu@gmail.com",
+    "password":"homu123",
+    "role":"Admin"
+}
+1XX - Infor

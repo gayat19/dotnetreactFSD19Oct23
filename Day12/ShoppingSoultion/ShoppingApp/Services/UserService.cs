@@ -10,10 +10,12 @@ namespace ShoppingApp.Services
     public class UserService : IUserService
     {
         private readonly IRepository<string, User> _repository;
+        private readonly ITokenService _tokenService;
 
-        public UserService(IRepository<string,User> repository)
+        public UserService(IRepository<string,User> repository,ITokenService tokenService)
         {
             _repository = repository;
+            _tokenService = tokenService;
         }
         public UserDTO Login(UserDTO userDTO)
         {
@@ -27,6 +29,7 @@ namespace ShoppingApp.Services
                     if (user.Password[i] != userpass[i])
                             return null;
                 }
+                userDTO.Token = _tokenService.GetToken(userDTO);
                 userDTO.Password = "";
                 return userDTO;
             }

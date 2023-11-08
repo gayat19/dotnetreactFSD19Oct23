@@ -247,3 +247,4 @@ D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day12\ShoppingSoultion\Shoppi
 D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day12\ShoppingSoultion\ShoppingApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day12\ShoppingSoultion\ShoppingApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day12\ShoppingSoultion\ShoppingApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Data\d drive\Corp\Gynosys\Hexaware\Participants\Day12\ShoppingSoultion\ShoppingApp\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
