@@ -4,7 +4,6 @@ namespace ShoppingApp.Models
 {
     public class Cart
     {
-   
         public int cartNumber { get; set; }
         public string Username { get; set; }
 

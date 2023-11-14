@@ -5,9 +5,9 @@ namespace ShoppingApp.Contexts
 {
     public class ShoppingContext : DbContext
     {
-        public ShoppingContext(DbContextOptions options):base(options) 
+        public ShoppingContext(DbContextOptions options) : base(options)
         {
-            
+
         }
         public DbSet<User> Users { get; set; }
         public DbSet<Product> Products { get; set; }

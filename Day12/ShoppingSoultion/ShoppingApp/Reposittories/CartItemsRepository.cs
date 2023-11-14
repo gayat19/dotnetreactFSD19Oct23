@@ -34,9 +34,7 @@ namespace ShoppingApp.Reposittories
 
         public IList<CartItems> GetAll()
         {
-            if (_context.CartItems.Count() == 0)
-                return null;
-            return _context.CartItems.ToList();
+             return _context.CartItems.ToList();
         }
 
         public CartItems GetById(int key)

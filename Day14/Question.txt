@@ -1,0 +1,7 @@
+Add the models for Order and Order details
+Create functionalities for odering items 
+    Pick the cart number
+    Insert to Order Table
+    Insert to Order details table
+    Reduce quantity from Product
+    Delete from cart and cart details table
