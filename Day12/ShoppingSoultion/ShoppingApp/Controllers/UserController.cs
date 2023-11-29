@@ -5,6 +5,7 @@ using ShoppingApp.Models.DTOs;
 
 namespace ShoppingApp.Controllers
 {
+
     public class UserController : Controller
     {
         private readonly IUserService _userService;

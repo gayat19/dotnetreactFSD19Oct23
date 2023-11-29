@@ -22,7 +22,6 @@ namespace FirstAPI
                 app.UseSwaggerUI();
             }
 
-            app.UseHttpsRedirection();
 
             app.UseAuthorization();
 

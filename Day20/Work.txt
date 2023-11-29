@@ -1,0 +1,23 @@
+http://localhost:5271/api/Product
+// <div className="App">
+    //       <div className="container text-center">
+    //     <div className="row">
+    //       <div className="col">
+    //         <Products/> 
+    //       </div>
+    //       <div className="col">
+    //         <AddProduct/>
+    //       </div>
+    //     </div>
+    // // </div>
+    //   {/* <div>
+    //       {scores.map((score)=>
+    //         <li key={score}>{score}</li>
+    //       )}
+    //   </div> */}
+    //   // <div>
+    //   // </div>
+    // // </div>
+    <div>
+      <RegisterUser/>
+    </div>

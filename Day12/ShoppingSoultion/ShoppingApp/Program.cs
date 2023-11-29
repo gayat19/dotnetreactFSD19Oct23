@@ -22,6 +22,7 @@ namespace ShoppingApp
             //builder.Services.AddControllersWithViews();
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
+            #region Swagger
             builder.Services.AddSwaggerGen(opt =>
             {
                 opt.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -50,7 +51,17 @@ namespace ShoppingApp
                      }
                  });
             });
-
+            #endregion
+            #region CORS
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("reactApp", opts =>
+                {
+                    opts.AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin();
+                });
+            });
+            #endregion
+            #region Uitility
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
                 {
@@ -69,7 +80,9 @@ namespace ShoppingApp
             });
 
             builder.Logging.AddLog4Net();
+            #endregion
 
+            #region UserDerfinedServices
             builder.Services.AddScoped<IRepository<string, User>, UserRepository>();
             builder.Services.AddScoped<IRepository<int, Product>, ProductRepository>();
             builder.Services.AddScoped<IRepository<int, Cart>, CartRepository>();
@@ -78,6 +91,7 @@ namespace ShoppingApp
             builder.Services.AddScoped<ITokenService, TokenService>();
             builder.Services.AddScoped<IProductService, ProductService>();
             builder.Services.AddScoped<ICartService, CartService>();
+            #endregion
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -91,6 +105,7 @@ namespace ShoppingApp
 
             app.UseRouting();
 
+            app.UseCors("reactApp");
             app.UseAuthentication();
             app.UseAuthorization();
             app.MapControllers();

@@ -1,0 +1,17 @@
+SPA
+HTML+CSS+JavaScript+AJAX
+HTML+CSS+JavaScript+(jQuery+AJAX)
+AngularJs-JavaScript
+Angular-2 - >ES6->TypeScript
+NodeJs->Server
+MEAN -> MongoDB+ExpressJs+Angular+Node
+React -> JS/TypeScript
+MERN -> MongoDB+ExpressJs+React+Node
+
+Node ->Server for front end
+React -> FE
+ASP core WebAPI -> Back End - server-IIS
+SQL Server -> Database
+
+Node -> https://nodejs.org/en/download/
+node --version - check in cmd prompt

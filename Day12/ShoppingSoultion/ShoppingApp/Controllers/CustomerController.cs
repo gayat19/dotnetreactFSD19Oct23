@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ShoppingApp.Interfaces;
@@ -7,6 +8,7 @@ using ShoppingApp.Models.DTOs;
 
 namespace ShoppingApp.Controllers
 {
+    [EnableCors("reactApp")]
     [Route("api/[controller]")]
     [ApiController]
     public class CustomerController : ControllerBase

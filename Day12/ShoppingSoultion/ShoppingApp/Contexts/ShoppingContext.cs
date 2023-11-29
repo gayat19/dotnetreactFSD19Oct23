@@ -5,6 +5,7 @@ namespace ShoppingApp.Contexts
 {
     public class ShoppingContext : DbContext
     {
+       
         public ShoppingContext(DbContextOptions options) : base(options)
         {
 

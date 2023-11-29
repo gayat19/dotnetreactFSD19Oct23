@@ -1,0 +1,14 @@
+
+
+App 
+   Create an array of product
+
+ProductListing
+   Create an array of product
+   Display the array in the component
+
+Cart
+   Should hold a cart array
+   Display the items in cart
+
+
